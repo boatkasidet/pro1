@@ -116,13 +116,7 @@
       </v-row>
       <v-row>
         <v-col>
-          <v-btn
-            block
-            elevation="2"
-            large
-            x-small
-            color="brown darken-4"
-            @click="singup"
+          <v-btn block elevation="2" large x-small color="" @click="singup"
             >SUBMIT</v-btn
           >
         </v-col>
