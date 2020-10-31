@@ -1,0 +1,14 @@
+{
+  "Cart": {
+    "description": "Auto imported from components/Cart.vue"
+  },
+  "LazyCart": {
+    "description": "Auto imported from components/Cart.vue"
+  },
+  "Product": {
+    "description": "Auto imported from components/Product.vue"
+  },
+  "LazyProduct": {
+    "description": "Auto imported from components/Product.vue"
+  }
+}

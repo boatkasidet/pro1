@@ -1,0 +1,58 @@
+[
+  {
+    "name": "App",
+    "path": "/App",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\App.vue",
+    "chunkName": "pages/App",
+    "_name": "_153af133"
+  },
+  {
+    "name": "home",
+    "path": "/home",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\home.vue",
+    "chunkName": "pages/home",
+    "_name": "_2e529e1d"
+  },
+  {
+    "name": "login",
+    "path": "/login",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\login.vue",
+    "chunkName": "pages/login",
+    "_name": "_8c33e7ca"
+  },
+  {
+    "name": "order",
+    "path": "/order",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\order.vue",
+    "chunkName": "pages/order",
+    "_name": "_09092980"
+  },
+  {
+    "name": "register",
+    "path": "/register",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\register.vue",
+    "chunkName": "pages/register",
+    "_name": "_0fa85a3e"
+  },
+  {
+    "name": "stock",
+    "path": "/stock",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\stock.vue",
+    "chunkName": "pages/stock",
+    "_name": "_6bf57548"
+  },
+  {
+    "name": "table",
+    "path": "/table",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\table.vue",
+    "chunkName": "pages/table",
+    "_name": "_ac4cc400"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Boat\\\\Desktop\\\\b3p\\\\pages\\\\index.vue",
+    "chunkName": "pages/index",
+    "_name": "_1f832df8"
+  }
+]

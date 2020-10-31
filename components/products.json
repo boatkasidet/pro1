@@ -1,0 +1,78 @@
+[
+  {
+    "id": "1",
+    "title": "Espresso (เอสเพรสโซ่)",
+    "price": "0"
+  },
+  {
+    "id": "2",
+    "title": "Americano (อเมริกาโน่)",
+    "price": "0"
+  },
+  {
+    "id": "3",
+    "title": "Latte (ลาเต้)",
+    "price": "0"
+  },
+  {
+    "id": "4",
+    "title": "Cappuccino (คาปูชิโน)",
+    "price": "0"
+  },
+  {
+    "id": "5",
+    "title": "Mocha (มอคค่า)",
+    "price": "0"
+  },
+  {
+    "id": "7",
+    "title": "Iced (เย็น)",
+    "price": "0"
+  }
+  ,
+  {
+    "id": "8",
+    "title": "Blended (ปั่น)",
+    "price": "5"
+  },
+  {
+    "id": "9",
+    "title": "Small (เล็ก) 12 Oz.",
+    "price": "30"
+  },
+  {
+    "id": "10",
+    "title": "Medium (กลาง) 16 Oz.",
+    "price": "40"
+  },
+  {
+    "id": "11",
+    "title": "Large (ใหญ่) 20 Oz.",
+    "price": "50"
+  },
+  {
+    "id": "12",
+    "title": "Normal (หวานปกติ)",
+    "price": "0"
+  },
+  {
+    "id": "13",
+    "title": "Medium (หวานปานกลาง)",
+    "price": "0"
+  },
+  {
+    "id": "14",
+    "title": "Not Sweet (ไม่หวาน)",
+    "price": "0"
+  },
+  {
+    "id": "15",
+    "title": "Chewy tapioca balls (ไข่มุก)",
+    "price": "5"
+  },
+  {
+    "id": "16",
+    "title": "Whipped cream (วิปปิ้งครีม)",
+    "price": "5"
+  }
+]
