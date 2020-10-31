@@ -1,7 +1,10 @@
 <template>
-  <v-card class="mx-auto" width="500" height="700" outlined>
-    <h1 align="center">SignUp</h1>
-    <v-container>
+  <v-card class="mx-auto" width="500" outlined>
+    <nuxt-link to="login">
+      <v-btn>Back to Login</v-btn>
+    </nuxt-link>
+    <v-container
+      ><h1 align="center">SignUp</h1>
       <v-row>
         <v-col>
           <v-text-field
@@ -32,7 +35,7 @@
           </v-text-field>
         </v-col>
       </v-row>
-      <v-row>
+      <!-- <v-row>
         <v-menu
           ref="menu"
           v-model="menu"
@@ -59,7 +62,7 @@
             @change="save"
           ></v-date-picker>
         </v-menu>
-      </v-row>
+      </v-row> -->
       <v-row>
         <v-col>
           <v-text-field
@@ -141,7 +144,7 @@ export default {
       error: '',
       name: '',
       lastname: '',
-      date: '',
+      // date: '',
       ID: '',
     }
   },
@@ -164,7 +167,7 @@ export default {
         email: this.email,
         name: this.name,
         lastname: this.lastname,
-        date: this.date,
+        // date: this.date,
         ID: this.ID,
       }
       db.collection('User')

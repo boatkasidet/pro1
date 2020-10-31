@@ -21,7 +21,14 @@
           </v-text-field>
         </v-col>
       </v-row>
-      <v-row>
+      <v-row
+        ><v-col>
+          <nuxt-link to="register"
+            ><v-btn block elevation="2" large x-small color="brown darken-4"
+              >Register</v-btn
+            ></nuxt-link
+          >
+        </v-col>
         <v-col>
           <v-btn
             block

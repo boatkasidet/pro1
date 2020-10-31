@@ -93,6 +93,7 @@
 </template>
 
 <script>
+import firebase from 'firebase'
 export default {
   data: () => ({
     dialog: false,
@@ -190,6 +191,13 @@ export default {
       }
       this.close()
     },
+  },
+  beforeCreate() {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (!user) {
+        this.$router.replace('/login')
+      }
+    })
   },
 }
 </script>
