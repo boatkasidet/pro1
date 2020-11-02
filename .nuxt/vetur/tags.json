@@ -1,20 +1,8 @@
 {
-  "Cart": {
-    "description": "Auto imported from components/Cart.vue"
-  },
-  "LazyCart": {
-    "description": "Auto imported from components/Cart.vue"
-  },
   "CollectionText": {
     "description": "Auto imported from components/CollectionText.vue"
   },
   "LazyCollectionText": {
     "description": "Auto imported from components/CollectionText.vue"
-  },
-  "Product": {
-    "description": "Auto imported from components/Product.vue"
-  },
-  "LazyProduct": {
-    "description": "Auto imported from components/Product.vue"
   }
 }

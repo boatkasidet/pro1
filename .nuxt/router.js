@@ -3,9 +3,7 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _153af133 = () => interopDefault(import('..\\pages\\App.vue' /* webpackChunkName: "pages/App" */))
-const _2e529e1d = () => interopDefault(import('..\\pages\\home.vue' /* webpackChunkName: "pages/home" */))
-const _8c33e7ca = () => interopDefault(import('..\\pages\\login.vue' /* webpackChunkName: "pages/login" */))
+const _ff580d76 = () => interopDefault(import('..\\pages\\bill.vue' /* webpackChunkName: "pages/bill" */))
 const _09092980 = () => interopDefault(import('..\\pages\\order.vue' /* webpackChunkName: "pages/order" */))
 const _0fa85a3e = () => interopDefault(import('..\\pages\\register.vue' /* webpackChunkName: "pages/register" */))
 const _6bf57548 = () => interopDefault(import('..\\pages\\stock.vue' /* webpackChunkName: "pages/stock" */))
@@ -29,17 +27,9 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/App",
-    component: _153af133,
-    name: "App"
-  }, {
-    path: "/home",
-    component: _2e529e1d,
-    name: "home"
-  }, {
-    path: "/login",
-    component: _8c33e7ca,
-    name: "login"
+    path: "/bill",
+    component: _ff580d76,
+    name: "bill"
   }, {
     path: "/order",
     component: _09092980,

@@ -30,7 +30,7 @@
       <v-toolbar-title v-text="title" />
       <v-spacer />
       <!-- button home -->
-      <nuxt-link to="/home">
+      <nuxt-link to="/order">
         <v-btn icon>
           <v-icon>mdi-home</v-icon>
         </v-btn></nuxt-link
@@ -64,44 +64,34 @@ export default {
           title: 'Menu',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-fingerprint',
           title: 'Login',
-          to: '/login',
+          to: '/',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-at',
           title: 'Register',
           to: '/register',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Home',
-          to: '/home',
-        },
-        {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-cart',
           title: 'Order',
           to: '/order',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-table',
           title: 'Table',
           to: '/table',
         },
         {
-          icon: 'mdi-chart-bubble',
+          icon: 'mdi-store',
           title: 'Stock',
           to: '/stock',
         },
         {
-          icon: 'mdi-chart-bubble',
-          title: 'Test',
-          to: '/App',
-        },
-        {
-          icon: 'mdi-chart-bubble',
-          title: 'Test',
-          to: '/',
+          icon: 'mdi-clipboard-outline',
+          title: 'Bill',
+          to: '/bill',
         },
       ],
       miniVariant: false,
@@ -121,7 +111,7 @@ export default {
         .auth()
         .signOut()
         .then(() => {
-          this.$router.replace('/login')
+          this.$router.replace('/')
         })
     },
   },
@@ -129,8 +119,6 @@ export default {
 </script>
 <style>
 .theme--dark.v-application {
-  /* background-image: url('https://www.blognone.com/sites/default/files/externals/9cf5c7bb9ee6e04947a8317525edb04d.jpg');
-  background-size: cover; */
   background-color: black;
 }
 </style>

@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <v-card class="mx-auto" width="500" @submit.prevent="addData">
+    <v-card class="mx-auto" width="500" @submit.prevent="addD">
       <h1 align="center">Stock</h1>
       <v-text-field
         v-model="NameProduct"
@@ -37,13 +37,20 @@ export default {
   components: {
     CollectionText,
   },
-  dataz() {
+  data() {
     return {
       NameProduct: '',
       ProDate: '',
       ExpDate: '',
       Quantity: '',
     }
+  },
+  beforeCreate() {
+    firebase.auth().onAuthStateChanged((user) => {
+      if (!user) {
+        this.$router.replace('/')
+      }
+    })
   },
   methods: {
     addD() {
@@ -64,14 +71,6 @@ export default {
         .catch(function (error) {
           console.error('Error writing document: ', error)
         })
-    },
-    reset() {},
-    beforeCreate() {
-      firebase.auth().onAuthStateChanged((user) => {
-        if (!user) {
-          this.$router.replace('/login')
-        }
-      })
     },
   },
 }

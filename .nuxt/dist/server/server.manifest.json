@@ -1,0 +1,21 @@
+{
+  "entry": "server.js",
+  "files": {
+    "pages/bill.js": "pages/bill.js",
+    "pages/index.js": "pages/index.js",
+    "pages/order.js": "pages/order.js",
+    "pages/register.js": "pages/register.js",
+    "pages/stock.js": "pages/stock.js",
+    "pages/table.js": "pages/table.js",
+    "server.js": "server.js"
+  },
+  "maps": {
+    "pages/bill.js": "pages/bill.js.map",
+    "pages/index.js": "pages/index.js.map",
+    "pages/order.js": "pages/order.js.map",
+    "pages/register.js": "pages/register.js.map",
+    "pages/stock.js": "pages/stock.js.map",
+    "pages/table.js": "pages/table.js.map",
+    "server.js": "server.js.map"
+  }
+}

@@ -31,7 +31,7 @@ export default {
   beforeCreate() {
     firebase.auth().onAuthStateChanged((user) => {
       if (!user) {
-        this.$router.replace('/login')
+        this.$router.replace('/')
       }
     })
   },

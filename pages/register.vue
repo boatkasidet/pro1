@@ -150,12 +150,12 @@ export default {
         .createUserWithEmailAndPassword(this.email, this.password)
         .then((user) => {
           console.log(user)
-          this.$router.push('/login')
+          this.$router.push('/')
         })
         .catch((error) => {
           this.error = error
           alert(error)
-          this.$router.push('/login')
+          this.$router.push('/')
         })
       /* eslint no-var: */
       var data = {
