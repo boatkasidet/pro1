@@ -62,7 +62,7 @@
       </v-container>
     </template>
     <!-- Chewy tapioca balls (ไข่มุก) -->
-    <!-- <template>
+    <template>
       <v-container fluid>
         <div>Chewy tapioca balls (ไข่มุก)</div>
         <v-radio-group v-model="Chewy" :mandatory="false">
@@ -70,9 +70,9 @@
           <v-radio label="No" value="No" />
         </v-radio-group>
       </v-container>
-    </template> -->
+    </template>
     <!-- Whipped cream (วิปปิ้งครีม) -->
-    <!-- <template>
+    <template>
       <v-container fluid>
         <div>Whipped cream (วิปปิ้งครีม)</div>
         <v-radio-group v-model="Whipped" :mandatory="false">
@@ -80,7 +80,7 @@
           <v-radio label="No" value="No" />
         </v-radio-group>
       </v-container>
-    </template> -->
+    </template>
     <!-- Quantity (จำนวนแก้ว) -->
     <v-row>
       <v-col cols="5" md="6">
@@ -123,7 +123,7 @@ export default {
   },
   methods: {
     addData() {
-      this.Total = 5 * this.Quantity
+      this.Total = 50 * this.Quantity
       const dataText = {
         name: this.name,
         Phone: this.Phone,
@@ -137,7 +137,7 @@ export default {
         Total: this.Total,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       }
-      db.collection('ORDER')
+      db.collection('Order')
         .doc()
         .set(dataText)
         .then(function () {

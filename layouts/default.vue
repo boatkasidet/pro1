@@ -54,6 +54,7 @@ require('firebase/auth')
 export default {
   data() {
     return {
+      name: '',
       clipped: false,
       drawer: false,
       fixed: false,
@@ -96,6 +97,11 @@ export default {
           icon: 'mdi-chart-bubble',
           title: 'Test',
           to: '/App',
+        },
+        {
+          icon: 'mdi-chart-bubble',
+          title: 'Test',
+          to: '/',
         },
       ],
       miniVariant: false,

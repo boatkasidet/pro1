@@ -8,19 +8,24 @@ export const state = () => ({
     },
     { text: 'Phone', value: 'Phone' },
     { text: 'Product', value: 'Product' },
-    // { text: 'Category', value: 'Category' },
-    // { text: 'Size', value: 'Size' },
+    { text: 'Category', value: 'Category' },
+    { text: 'Size', value: 'Size' },
     { text: 'Sweet', value: 'Sweet' },
     { text: 'Quantity', value: 'Quantity' },
     { text: 'Total', value: 'Total' },
   ],
 })
 export const mutations = {
-  input(state, { name, Phone, Product, Sweet, Quantity, Total }) {
+  input(
+    state,
+    { name, Phone, Product, Category, Size, Sweet, Quantity, Total }
+  ) {
     state.data.push({
       name,
       Phone,
       Product,
+      Category,
+      Size,
       Sweet,
       Quantity,
       Total,

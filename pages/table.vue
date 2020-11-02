@@ -44,7 +44,7 @@ export default {
   },
   methods: {
     getData() {
-      db.collection('ORDER')
+      db.collection('Order')
         .orderBy('timestamp')
         .onSnapshot((querySnapshot) => {
           const data = []

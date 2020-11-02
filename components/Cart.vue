@@ -37,6 +37,8 @@ export default {
     addData() {
       // เก็บข้อมูล Input Text ใน collection MyText (มีหลาย document ข้อมูลจะเพิ่มขึ้นเรื่อย ๆ )
       const dataText = {
+        items: this.item.title,
+        product: this.item.product,
         total: this.total,
         timestamp: firebase.firestore.FieldValue.serverTimestamp(),
       }

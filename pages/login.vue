@@ -1,5 +1,5 @@
 <template>
-  <v-card class="mx-auto" width="400" height="320" outlined>
+  <v-card class="mx-auto" width="500" height="320" outlined>
     <h1 align="center">Login</h1>
     <v-container>
       <v-row>
@@ -30,7 +30,13 @@
           >
         </v-col>
         <v-col>
-          <v-btn block elevation="2" large x-small color="" @click="singin"
+          <v-btn
+            block
+            elevation="2"
+            large
+            x-small
+            color="primary"
+            @click="singin"
             >LOGIN</v-btn
           >
         </v-col>
